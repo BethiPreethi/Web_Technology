@@ -1,0 +1,47 @@
+p{
+    color:rgb(184, 133, 72);
+    text-indent: 100px;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    text-decoration: underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through */
+    text-shadow : 10px 10px 5px bisque;
+    letter-spacing: 25px;
+    word-spacing: 25px;
+    line-height: 50px;
+} 
+h1{
+    text-align: center;
+    /* text-align: justify; */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: end; */
+    letter-spacing: 25px;
+}
+a{
+    /* text-decoration: none; */
+    /* text-decoration: underline; */
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: double; */
+    text-decoration-style: dashed;
+    /* text-decoration-style: wavy; */
+    /* text-decoration-style: solid; */
+}
+h2{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    /* overflow: visible; */
+    /* overflow: scroll; */
+    resize: horizontal;
+    /* resize: vertical; */
+    /* resize: both; */
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    /* text-overflow: clip; */
+}

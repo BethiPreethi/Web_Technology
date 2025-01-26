@@ -1,0 +1,26 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 5px solid;
+} 
+h1{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    /* padding: 40px; */
+    /* padding-top: 50px; */
+    /* padding-left: 50px; */
+    /* padding-right: 30px; */
+    padding-bottom: 110px;
+    border-top: 3px dotted green;
+    border-left: 3px dashed red;
+    border-right:3px groove crimson ;
+    border-bottom: 3px double greenyellow;
+    /* margin: 50px; */
+    margin-top: 60px;
+    margin-bottom: 1000px;
+    margin-left: 60px;
+    margin-right: 500px;
+}

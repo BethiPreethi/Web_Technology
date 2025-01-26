@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: MercurySSm-Book-Pro_Web, serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 16px;
+}
+
+header > p {
+    text-align: center;
+}
+
+header > h1 {
+    color: #0a2458;
+    text-align: center;
+    margin: 20px 5%; /* Use percentage for responsive margins */
+    font-size: 2.5em; /* Responsive font size */
+}
+
+.breadcrumb {
+    margin-top: 10px;
+    border-top: 1px solid #d7dae2;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d7dae2;
+    padding: 8px 5%; /* Use percentage for padding */
+}
+
+.breadcrumb p {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #007bff;
+}
+
+.arrow::before {
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #826553;
+    border-top: 4px solid transparent;
+    content: "";
+    display: block;
+    height: 0;
+    margin: 6px 16px;
+    width: 0;
+}
+
+.introduction {
+    margin: 40px 5%; /* Use percentage for responsive margins */
+    color: #0a2458;
+    font-size: 1.25em; /* Responsive font size */
+}
+
+.first-section, .second-section {
+    margin: 40px 5%; /* Use percentage for responsive margins */
+    color: #0a2458;
+    font-size: 1.25em; /* Responsive font size */
+}
+
+h2 {
+    font-size: 1.5em; /* Responsive font size */
+    margin-bottom: 10px;
+    color: #0a2458; 
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        margin: 10px;
+    }
+
+    header > h1 {
+        font-size: 2em; 
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller font size for mobile */
+    }
+
+    .introduction, .first-section, .second-section {
+        margin: 20px 5%; /* Adjust margins for mobile */
+        font-size: 1em; /* Smaller font size for mobile */
+    }
+
+    .breadcrumb {
+        flex-direction: column; /* Stack breadcrumb items vertically on small screens */
+        align-items: flex-start; /* Align items to the start */
+    }
+}

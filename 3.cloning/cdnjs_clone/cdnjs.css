@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #333333;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 0px;
+    display: inline-flex;
+}
+
+nav img{
+    padding: 12px;
+    position: relative;
+    width: 20%;
+    display: inline-flex;
+    width:40%;
+
+}
+nav a span{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 4px 16px;
+    display: inline-flex;
+    
+}
+nav right a{
+    align-items: flex-end ;
+    align-content: space-between;
+    text-align-last: right;
+    padding: 12px;
+    position: relative;
+    width: 20%;
+    display: inline-flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 4px 16px;
+}
+
+section{
+    width: 100%;
+    height: 800px;
+    align-items: flex-start;
+    max-width: 932px;
+    padding: 16px;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+
+}
+
+footer {
+    background: #242525;
+    color: #ebebeb
+}
+
+footer .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+footer .content dl {
+    flex-grow: 1;
+    margin: 0 16px 16px
+}
+
+footer .content dl dt {
+    color: #a6a6a6;
+    font-size: 14px;
+    margin: 0 0 16px;
+    text-transform: uppercase
+}
+
+footer .content dl dt:not(:first-of-type) {
+    margin: 24px 0 16px
+}
+
+footer .content dl dt.logo img {
+    width: 200px
+}
+
+footer .content dl dd {
+    margin: 0 0 4px
+}
+
+footer .content dl dd a {
+    color: #ebebeb;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: color .15s cubic-bezier(1,-.115,.975,.855)
+}
+
+footer .content dl dd a:focus,footer .content dl dd a:hover {
+    color: #d9643a
+}
+
+footer .content dl dd.copy-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 0 0
+}
+
+footer .content dl dd.copy-social span {
+    border-right: 1px solid #a6a6a6;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 8px 0 0;
+    padding: 0 16px 0 0
+}
+
+footer .content dl dd.copy-social a {
+    margin: 0 8px
+}
+
+footer .content dl dd.break {
+    height: 12px
+}
+
+
+span svg{
+    background-color: #464746 ;
+}

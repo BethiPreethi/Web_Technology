@@ -1,0 +1,30 @@
+/* h1:first-child{
+    background-color: yellow;
+} */
+/* h1:last-child{
+    background-color: blueviolet;
+} */
+
+h1::first-letter{
+    background-color:aliceblue ;
+    color: blue;
+}
+
+/* 
+h1:nth-child(even){
+    background-color: bisque;
+}
+h1:nth-child(odd){
+    background-color: plum;
+}
+p:nth-child(2){
+    background-color: burlywood;
+} */
+
+h1:first-of-type{
+    background-color: brown;
+}
+
+h1:last-of-type{
+    background-color: chartreuse;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registration form </legend> <br>
+        <form action="http://www.google.com" method="post" autocomplete="on">
+            <label for="name" >NAME :</label>
+            <input type="text" id="name" name="name" autofocus value="Preethi" readonly/> <br><br>
+            
+            <label for="lname">LAST NAME :</label>
+            <input type="text" id="lname" name="lname" placeholder="your last name " /> <br><br>
+
+            <label for="email">G-MAIL :</label>
+            <input type="email" id="email" name="email"/> <br><br>
+
+            <label for="age">AGE :</label>
+            <input type="number" id="age" name="age"/> <br><br>
+
+            <label for="phn">PHONE-NO :</label>
+            <input type="tel" id="phn" name="phn"/> <br><br>
+
+            <label for="add">ADDRESS :</label>
+            <textarea id="add" name="add" disabled> </textarea> <br><br>
+
+            <label for="phn">PHONE-NO :</label>
+            <input type="tel" id="phn" name="phn" minlength="10" maxlength="10"/> <br><br>
+
+            <label for="pass">PASSWORD :</label>
+            <input type="password" id="pass" name="pass" required maxlength="12" pattern="[A-Z][4][a-z][4][0-9][4]"/> <br><br>
+
+            <label for="gen">GENDER :</label>
+            <input type="radio" id="gen" name="gen"/>MALE
+            <input type="radio" checked id="gen" name="gen"/>FEMALE <br><br>
+
+            <label for="hobb">HOBBIES :</label>
+            <input type="checkbox" checked id="hobb" name="hobb"/>PLAYING
+            <input type="checkbox" id="hobb" name="hobb"/>DANCING
+            <input type="checkbox" id="hobb" name="hobb"/>SINGING   <br><br>
+
+            <label for="course">COURSE :</label>
+            <select id="course" name="course" hidden>
+                <option value="B-TECH">B-TECH</option>
+                <option value="MCA">MCA</option>
+                <option value="DEGREE">DEGREE</option>
+                <option value="M-COM">M-COM</option>
+            </select> <br><br>
+
+            <label for="COURSE1">COURSE1</label>
+            <input list="COURSE1">
+            <datalist id="COURSE1">
+                <option value="B-TECH">B-TECH</option>
+                <option value="MCA">MCA</option>
+                <option value="DEGREE">DEGREE</option>
+                <option value="M-COM">M-COM</option>
+            </datalist>  <br><br>
+
+            <label for="File">File :</label>
+            <input type="file" id="File" name="File"/> <br><br>
+
+            <label for="DOB">DOB :</label>
+            <input type="date" id="DOB" name="DOB"/> <br><br>
+ 
+            <label for="DATE-TIME">DATE-TIME :</label>
+            <input type="datetime" id="DATE-TIME" name="DATE-TIME"/> <br><br>
+
+            <label for="DATE-TIME-LOCAL">DATE-TIME-LOCAL :</label>
+            <input type="datetime-local" id="DATE-TIME-LOCAL" name="DATE-TIME-LOCAL"/> <br><br>
+
+
+            <label for="MONTH">MONTH :</label>
+            <input type="month" id="MONTH" name="MONTH"/> <br><br>
+
+            <label for="WEEK">WEEK :</label>
+            <input type="week" id="WEEK" name="WEEK"/> <br><br>
+
+            <label for="COLOUR">COLOUR :</label>
+            <input type="color" id="COLOUR" name="COLOUR"/> <br><br>
+
+            <label for="IMAGE">IMAGE :</label>
+            <input type="image" id="IMAGE" name="IMAGE" src="../Audio and Video/files/netflix" height="100" width="100"/> <br><br>
+
+            <label for="url">url :</label>
+            <input type="url" id="url" name="url"/> <br><br>
+
+            <label for="search">search :</label>
+            <input type="search" id="search" name="search"/> <br><br>
+
+            <label for="range">range :</label>
+            <input type="range" id="range" name="range"/> <br><br>
+
+            <label for="hidden">hidden :</label>
+            <input type="hidden" id="hidden" name="hidden"/> <br><br>
+
+
+
+
+            <button >SUBMIT</button>
+            <button>RESET</button>
+
+        </form>
+    </fieldset>
+</body>
+</html>

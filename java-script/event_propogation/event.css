@@ -1,0 +1,32 @@
+#parent{
+    border: 2px solid;
+    padding: 20px;
+    height: 100px;
+    width: 20%;
+    
+}
+
+#child{
+    border: 2px solid;
+    padding: 20px;
+    height: 50px;
+    width: 20%;
+}
+
+ol{
+    border: 2px solid;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+li{
+    border: 2px solid ;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+

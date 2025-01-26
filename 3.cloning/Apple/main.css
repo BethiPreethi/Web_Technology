@@ -1,0 +1,375 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    
+}
+#nav{
+    /* border: 3px solid blue; */
+    /* background-color: rgba(250, 250, 252, .8); */
+    position: fixed;
+    width: 100%;
+    position: relative;
+    /* z-index: 222222; */
+}
+#nav ul{
+    /* border: 2px solid; */                                                                                                                                                                                                        `
+    height: 40px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 125px ;
+    padding-right: 125px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(250, 250, 252, .8);
+    /* z-index: 11111; */
+}
+#nav2{
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    color: #1d1d1f;
+    /* border: 2px solid; */
+    text-align: center;
+}
+#nav2 article{
+    font-size: 14px;
+    /* width: 60%; */
+    /* margin: auto; */
+    font-weight: lighter;
+}
+article a{
+    text-decoration: none;
+    color: #06c;
+}
+#section1{
+    /* border: 2px solid red; */
+    position: absolute;
+    height: 580px;
+    width: 100%;
+    margin-top: 47px;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    /* background-position: center center; */
+}
+h2{
+    font-size: 50px;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 55px;
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 28px;
+    letter-spacing: -0.7px;
+}
+p+p{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: .012em;
+    color: #6e6e73;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 18px;
+    /* border: 2px solid; */
+}
+.btn button{
+    background-color: #0071e3;
+    color: #fff;
+    padding: 7px;
+    border-radius: 980px;
+    border: none;
+    height: 42px;
+    width: 130px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.btn button+button{
+    color: #0071e3;
+    background: none;
+    width: 150px;
+    border: 1px solid #0071e3;
+}
+.btn button+button:hover{
+    cursor: pointer;
+    background-color: #0071e3;
+    color: #fff;
+}
+figure img{
+    /* border: 2px solid ; */
+    width: 100%;
+    /* background-image: url(./images/phones.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* transform: translatex(-50%) */
+    /* position: absolute; */
+}
+#section2{
+     /* border: 2px solid black; */
+     position: absolute;
+     background-color:#f5f5f7;
+     margin-top: 17px;
+     top: 690px;
+     width: 100%;
+     height: 590px;
+     /* z-index: 1; */
+}
+#section2 span svg{
+    /* border: 2px solid #ff0000; */
+    height: 153px;
+    width: 277px;
+    transform: rotate(-5deg);
+    position: absolute;
+    fill: #007aff;
+    top: 75px;
+    left: 468px;
+    color: #fff;
+    /* font-size: 105; */
+    /* font-weight: 600; */
+}
+#section2 span svg p{
+    text-align: left;
+    font-size: 100px;
+    font-weight: 600;
+    /* border: 2px solid black; */
+    width: fit-content;
+    /* margin-top: 10px; */
+    /* letter-spacing: -0.7px; */
+}
+#section2 h2{
+    /* border: 2px solid; */
+    height: 75px;
+    width: 70px;
+    background-image: url(./images/heart.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    background-size: cover;
+    top: 13px;
+    left: 422px;
+}
+#section2 h2+h2{
+    /* border: 2px solid; */
+    height: 127px;
+    width: 127px;
+    background-image: url(./images/laptop.png);
+    top: -21px;
+    left: 640px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#section2 h2+h2+h2{
+    /* border: 2px solid; */
+    height: 127px;
+    width: 127px;
+    background-image: url(./images/ipads.png);
+    top: 159px;
+    left: 405px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#content{
+    position: absolute;
+    left: 86px;
+    top: 143px;
+}
+#content svg {
+    width: 212px !important;
+    height: 40px !important;
+    padding-top: 6px !important;
+   
+}
+#content svg p{
+    font-size: 35px !important;
+    font-weight: 100 !important; 
+    padding-left: 10px !important;
+}
+#content2{
+    position: absolute;
+    left: 150px;
+    top: 116px;
+    transform: rotate(6deg);
+}
+#content2 svg {
+    /* border: 2px solid; */
+    width: 259px !important;
+    height: 98px !important;
+    padding-top: 6px !important;
+}
+#content2 svg p{
+    font-size: 80px !important;
+    font-weight: 600 !important;
+    /* padding-left: 10px !important; */
+    line-height: 1.0010;
+    /* border: 2px solid; */
+}
+#content2+h2{
+    /* border: 2px solid; */
+    width: 71px;
+    height: 70px;
+    background-image: url(./images/airpods.png);
+    top: 250px;
+    left: 778px;
+    position: absolute;
+    background-repeat: no-repeat;
+    /* background-size: 71px 70px; */
+    /* background-position: center center; */
+}
+#c3{
+    position: absolute;
+    left: 120px;
+    top: 131px;
+    transform: rotate(14deg);
+}
+#c3 svg{
+    /* border: 2px solid; */
+    height: 100px !important;
+    width: 230px !important;
+    padding-top: 6px !important;
+}
+#c3 svg p{
+    /* border: 2px solid ; */
+    font-size: 60px !important;
+}
+#c3+h2{
+     /* border: 2px solid; */
+     width: 132px;
+     height: 234px;
+     background-image: url(./images/pen.png);
+     top: 315px;
+     left: 633px;
+     position: absolute;
+     background-repeat: no-repeat;
+     background-size: contain;
+    position: absolute;
+    transform: translateY(-35%);
+}
+#content3{
+    position: absolute;
+    left: 120px;
+    top: 310px;
+    fill: #9a97a1;
+    transform: rotate(5deg);
+}
+#content3 svg{
+    fill: #e1dfe5!important;
+    height: 30px !important;
+    width: 200px !important;
+    color:black !important;
+}
+#content3 svg p{
+    font-size: 33px !important;
+    align-content: center !important;
+}
+#content3+h2{
+    background-image: url("./images/exclamation.png");
+    background-size: cover;
+    position: absolute;
+    height: 25px;
+    width: 24px;
+    top: 371px;
+    left: 750px;
+}
+
+#button1{
+    border: 1px solid #06c;
+    position: absolute;
+    color:#06c;
+    margin: 495px 610px;
+    /* top: 1220px; */
+    /* left: 730px; */
+    border-radius: 30px;
+    height: 50px;
+    width: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+
+
+
+#section3{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    background-color: #000;
+    margin-top: 17px;
+    top: 1293px;
+    /* z-index: 1; */
+}
+#section3 div img{
+    /* border: 2px solid wheat; */
+    height: 280px;
+    width: 100%;
+    margin-top: 50px;
+    /* padding: 6%; */
+   
+}
+#section3 span img{
+    /* border: 2px solid red; */
+    height: 50px;
+}
+#section3 span p{
+    /* border: 2px solid wheat; */
+    max-width: 600px;
+    margin-top: 14px;
+    color: #fff;
+} 
+
+
+
+
+#division{
+    /* padding: 10px 10px 10px 10px; */
+}
+#sec1{
+    border: 2px solid red;
+    height: 598px;
+    width: 48%;
+    margin-top: 35px;
+    margin-left: 14px;
+    background-image: url(./images/girl_with_laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: 603px 594px;
+    /* background-size: cover; */
+}
+#sec1 h3{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-top: 53px;
+}
+#sec1 p{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-top: 4px;
+}
+#sec2{
+    border: 2px solid;
+    height: 600px;
+    width: 48%;
+    margin-top: -598px;
+    margin-left: 638px;
+    /* margin: 10px 10px; */
+}

@@ -1,0 +1,54 @@
+#demo1{
+    border: 2px solid ;
+    height: 250px;
+    /* background-image: linear-gradient(red,green, blue, crimson ); */
+     /* background-image: linear-gradient(to right,red,green, blue, crimson ); */
+    /* background-image: linear-gradient(to left,red,green, blue, crimson ); */
+    /* background-image: linear-gradient(to top,red,green, blue, crimson ); */
+    background-image: linear-gradient(to bottom,red,green, blue, crimson );
+}
+#demo2{
+    border: 2px solid ;
+    height: 250px;
+    background-image: radial-gradient(red, green, blue, yellow);
+}
+#demo3{
+    border: 2px solid ;
+    height: 250px;
+    background-image: radial-gradient(circle, red, green, blue, yellow);
+}
+#demo4{
+    border: 2px solid ;
+    height: 250px;
+    background-image: radial-gradient(circle farthest-corner at 60% 60%, red, green, blue, yellow);
+}
+#demo5{
+    border: 2px solid ;
+    height: 250px;
+    background-image: radial-gradient(circle closest-corner at 60% 60%, red, green, blue, yellow);
+}
+#demo6{
+    border: 2px solid ;
+    height: 250px;
+    background-image: radial-gradient(circle farthest-side at 60% 60%, red, green, blue, yellow);
+}
+#demo7{
+    border: 2px solid ;
+    height: 250px;
+    background-image: radial-gradient(circle closest-side at 60% 60%, red, green, blue, yellow);
+}
+#demo8{
+    border: 2px solid ;
+    height: 250px;
+    /* width: 250px; */
+    background-image: conic-gradient( red, green, blue, yellow);
+}
+#demo9{
+    border: 2px solid;
+    height: 100vh;
+    background-image: linear-gradient( rgba(0 ,0, 0, 1), rgba( 0, 0, 0, 0.7)), url(../background_image/pics/cat-1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+

@@ -1,0 +1,308 @@
+@import url("./style-footer.css");
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "UPSRoboto", Tahoma, helvetica, arial, sans-serif
+}
+
+/*  main */
+
+main{
+    width: 100%;
+}
+main section{
+    width: 100%;
+}
+main section .section1{
+    /* margin-top: 5000px; */
+    width: 94.5%;
+    margin: auto;
+    height: 450px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+main section .section1 .sec1-right{
+    /* border: 2px solid red; */
+    width: 40%;
+}
+main section .section1 .sec1-right p{
+    margin-top: 20px;
+    font-size: 40px;
+}
+main section .section1 .sec1-right hr{
+    margin-top: 20px;
+    width: 17%;
+    height: 4px;
+    background-color: #ffc400;
+    border: none;
+}
+main section .section1 .sec1-right p+hr+p{
+    font-size: 21px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+}
+main section .section1 .sec1-right .started{
+    margin-top: 20px;
+    width: 190px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #ffc400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+main section .section1 .sec1-right .started p{
+    font-size: 15px;
+    /* border: 2px solid; */
+    margin-top: 0%;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+main section .section1 .sec1-right .started i{
+    font-size: 30px;
+    /* border: 1px solid; */
+    padding-right: 0%;
+}
+main section .section2{
+    /* margin-top: 100px; */
+    width: 94.5%;
+    height: 450px;
+    margin: auto;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+main section .section2 .sec2-left{
+    /* border: 2px solid red; */
+    width: 40%;
+}
+main section .section2 .sec2-left p{
+    margin-top: 20px;
+    font-size: 40px;
+}
+main section .section2 .sec2-left hr{
+    margin-top: 20px;
+    width: 17%;
+    height: 4px;
+    background-color: #ffc400;
+    border: none;
+}
+main section .section2 .sec2-left p+hr+p{
+    font-size: 21px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+}
+main section .section2 .sec2-left .book{
+    margin-top: 20px;
+    width: 240px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #ffc400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+main section .section2 .sec2-left .book p{
+    font-size: 15px;
+    /* border: 2px solid; */
+    margin-top: 0%;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+main section .section2 .sec2-left .book i{
+    font-size: 20px;
+    /* border: 1px solid; */
+    padding-right: 0%;
+    margin-left: 5px;
+}
+main section .section2 .sec2-right img{
+    width: 100%;
+    height: 330px;
+}
+main section .section3{
+    width: 65%;
+    height: 670px;
+    margin: auto;
+    /* border: 2px solid; */
+}
+main section .section3 p{
+    font-size: 38px;
+    text-align: center;
+}
+main section .section3 hr{
+    margin: auto;
+    margin-top: 25px;
+    width: 10%;
+    height: 4px;
+    background-color: #ffc400;
+    border: none;
+}
+main section .section3 p+hr+p{
+    margin-top: 25px;
+    font-size: 21px;
+    letter-spacing: 0.2px;
+    line-height: 30px;
+}
+main section .section3 .action33{
+    margin-top: 50px;
+    width: 100%;
+    height: 460px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+main section .section3 .action33 .action{
+    width: 48%;
+    height: inherit;
+    /* border: 2px solid; */
+    box-shadow: 0px 0px 5px #bbbbbb;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+}
+main section .section3 .action33 .action:hover{
+    box-shadow: 0px 0px 5px #a3a3a3;
+}
+main section .section3 .action33 .action img{
+    width: 100%;
+    height: 220px;
+    transform: scale(1,1);
+    transition-duration: 0.5s;
+}
+main section .section3 .action33 .action img:hover{
+    transform: scale(1.03,1.03);
+}
+main section .section3 .action33 .action .inside{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 170px;
+    /* border: 2px solid; */
+
+}
+main section .section3 .action33 .action .inside p{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+main section .section3 .action33 .action .inside p+p{
+    margin-top: 18px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+}
+main section .section3 .action33 .action .inside p+p+p{
+    margin-top: 23px;
+    color: #0662bb;
+    font-weight: 600;
+}
+main section .section3 .action33 .action .inside p+p+p:hover{
+    text-decoration: underline;
+}
+main section .section3 .action33 .action .inside p+p+p i{
+    margin-left: 5px;
+}
+main section .section4{
+    margin: auto;
+    margin-top: 130px;
+    width: 94%;
+    height: 150px;
+    background-color: #f0f0f0;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main section .section4 div{
+    width: 60%;
+}
+main section .section4 div p{
+    font-size: 30px;
+}
+main section .section4 div p+p{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+main section .section4 div+div{
+    width: 23%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: end;
+}
+main section .section4 div+div .read-more{
+    margin-top: 20px;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #ffc400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+main section .section4 div+div .read-more:hover{
+    background-color: #ffd64e;
+}
+main section .section4 div+div .read-more i{
+    font-size: 17px;
+    /* border: 1px solid; */
+    padding-left: 10px;
+}
+main section .section5{
+    margin-top: 150px;
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid; */
+}
+main section .section5 p{
+    font-size: 38px;
+    text-align: center;
+}
+main section .section5 hr{
+    margin: auto;
+    margin-top: 25px;
+    width: 7%;
+    height: 4px;
+    background-color: #ffc400;
+    border: none;
+}
+main section .section5 #sub{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+main section .section5 #sub .sub1{
+    width: 30%;
+    /* border: 2px solid; */
+}
+main section .section5 #sub .sub1 p{
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+    color: #0662bb;
+    font-weight: 600;
+    cursor: pointer;
+}
+main section .section5 #sub .sub1 p i{
+    font-size: 25px;
+}
+main section .section5 #sub .sub1 hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #bbbbbb;
+    height: 0.5px;
+}

@@ -1,0 +1,12 @@
+ol>li{
+     background-color: purple;
+}
+ol li+li{
+    background-color: orange;
+}
+ol li ol li{
+    background-color: red;
+}
+ol li ol li+li{
+    box-flex-group: green;
+}
